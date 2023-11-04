@@ -34,5 +34,23 @@ Rust is used for a wide range of devices:
 
 ### 5. Why Use Rust?
    - Compile time memory safety.
-   - Lack of undefined runtime behavior.
+      -  No uninitialized variables.
+      - No memory leaks (mostly, see notes).
+      - No double-frees.
+      - No use-after-free.
+      - No NULL pointers.
+      - No forgotten locked mutexes.
+      - No data races between threads.
+      - No iterator invalidation.
+
+   - No undefined behavior at runtime.
+      - Array access is bounds checked.
+      - Integer overflow is defined (panic or wrap-around).
+
    - Modern language features.
+     Rust is built with all the experience gained in the last decades.
+      - Enums and pattern matching.
+      - Generics.
+      - No overhead FFI.
+      - Zero-cost abstractions.
+

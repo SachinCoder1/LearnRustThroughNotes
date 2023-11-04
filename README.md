@@ -32,4 +32,7 @@ Rust is used for a wide range of devices:
 **rustc**: the Rust compiler which turns .rs files into binaries and other intermediate formats.
   > rustc uses LLVM as its backend
 
-
+### 5. Why Use Rust?
+   - Compile time memory safety.
+   - Lack of undefined runtime behavior.
+   - Modern language features.

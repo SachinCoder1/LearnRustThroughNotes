@@ -1,5 +1,5 @@
-# Rust Notes
-This repository serves as a personal knowledge base, documenting the journey from beginner to advanced Rustacean, and is intended as a quick reference guide for Rust concepts
+# Rust Notes with Interview Questions
+This repository serves as a personal knowledge base, documenting the journey from beginner to advanced Rustacean, and is intended as a quick reference guide for Rust concepts. This Repo Also Contains Potential **Interview Questions** 
 
 ## Basics of Rust
 Basics of rust contains topics like variables, rust definition, syntax, etc.

@@ -13,7 +13,14 @@ Rust is a relatively new programming language which had its 1.0 release in 2015:
         - x86, ARM, WebAssembly, etc
         - Linux, Mac, Windows, etc
 
-### 2. In What Devices Rust can be Used? 
+### 2. Rust Important Points to Remember:
+   - Functions are introduced with fn.
+   - Blocks are delimited by curly braces like in C and C++.
+   - The main function is the entry point of the program.
+   - Rust has hygienic macros, println! is an example of this.
+   - Rust strings are UTF-8 encoded and can contain any Unicode character.
+
+### 3. In What Devices Rust can be Used? 
 Rust is used for a wide range of devices:
    - firmware and boot loaders,
    - smart displays,
@@ -21,7 +28,7 @@ Rust is used for a wide range of devices:
    - desktops,
    - servers.
 
-### 3. What is rustc?
+### 4. What is rustc?
 **rustc**: the Rust compiler which turns .rs files into binaries and other intermediate formats.
   > rustc uses LLVM as its backend
 
